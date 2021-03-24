@@ -1,0 +1,22 @@
+.table {
+  margin-top: 20px;
+  /*We had a huge list of data b4 so we did 
+  overflow:scroll and set specific height that's important*/
+  overflow: scroll;
+  height: 250px;
+  color: #6a5d5d;
+  background-color: #fff;
+}
+/*row of the table country and cases set flex and space between*/
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+/*between all the data me padding makes a nice view*/
+.table td {
+  padding: 0.5rem;
+}
+/*Go to the table record every single odd numbered row and set the bg-color to gray*/
+.table tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}

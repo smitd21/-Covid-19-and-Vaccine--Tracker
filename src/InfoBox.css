@@ -1,0 +1,35 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+/*Except the last child child in row all should have margin-right 10px*/
+.infoBox:not(:last-child) {
+  margin-right: 10px;
+}
+/*
+infoBox--selected stands for element change not BEM
+infoBox__title stands for modification BEM 
+*/
+.infoBox--selected {
+  border-top: 10px solid greenyellow;
+}
+.infoBox--red {
+  border-color: red;
+  color: red !important;
+}
+.infoBox--gray {
+  border-color: gray;
+  color: gray !important;
+}
+.infoBox__cases {
+  color: lightgreen;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
