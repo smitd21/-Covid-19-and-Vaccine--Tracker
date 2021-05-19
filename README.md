@@ -1,5 +1,7 @@
 # Covid-19 Tracker App
 
+![code quality score](https://www.code-inspector.com/project/22809/score/svg)
+
 This Project is a beginner friendly project I built using React. Some key Aspects:
 
 - Shows Live Cases, Recoveries, Deaths (clickable tabs)
